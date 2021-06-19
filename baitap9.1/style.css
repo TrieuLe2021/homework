@@ -1,0 +1,45 @@
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-family: arial;
+
+}
+th,td{
+	border: 1px solid black;
+	height: 40px;
+	padding-left: 10px;
+}
+#cot1{
+width: 155px;
+background: #DEEBFE;
+}
+#cot2{
+	width: 255px;
+	background: #DEEBFE;;
+}
+#cot3{
+	width: 120px;
+	background: #DEEBFE;;
+}
+#cot4{
+	width: 110px;
+	background: #DEEBFE;;
+}
+a{
+	text-decoration: none;
+}
+#dong3{
+	background: #F0EBEF;
+}
+p{
+	font-size: 12px;
+}
+h2{
+	font-size: 24px;
+}
+th{
+	font-size: 13px;
+}
+td{
+	font-size: 12px;
+}
