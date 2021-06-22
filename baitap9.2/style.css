@@ -1,0 +1,17 @@
+ol{
+	background: #ff9899;
+	width: 400px;
+	padding: 20px 40px ;
+}
+ol li{
+	background: #ffe5e6 ; 
+}
+ul{
+	background: #3399fe;
+	width: 400px;
+	padding: 20px 40px;
+
+}
+ul li{
+	background: #cbe5fe;
+}
