@@ -1,0 +1,145 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+#wrap{
+	width: 960px;
+	margin: auto;
+}
+#header{
+	width: 960px;
+	height: 100px;
+}
+#logo{
+	width: 200px;
+	height: 100px;
+	float: left;
+	background: yellowgreen;
+	border: 1px solid black;
+}
+#banner{
+	width: 760px;
+	height: 100px;
+	float: left;
+	background: olive;
+	border: 1px solid black;
+}
+#menu{
+	width: 960px;
+	height: 40px;
+}
+#menu > ul > li{
+	display: inline ;
+	padding: 0px 15px;
+	border-right: 1px solid;
+}
+#menu li:hover a{
+	color: red;
+}
+#menu li:last-child{
+	border-right: none;
+}
+#menu a{
+	line-height: 40px;
+	text-decoration: none;
+	list-style-type: none;
+}
+#menu form{
+	float: right;
+	margin-top: -30px;
+}
+#left{
+	width: 150px ;
+	height: 500px;
+	float: left;
+}
+#left1{
+	width: 150px;
+	height: 200px;
+	border: 1px solid;
+}
+#left1 > ul > li{
+	padding-left: 10px;
+	list-style-type: none;
+}
+#left1 li a{
+	text-decoration: none;
+}
+#left1 li:hover a{ color: red; }
+#left2{
+	border: 1px solid;
+	width: 150px;
+	height: 250px;
+	margin-top: 10px;
+}
+#center{
+	width: 640px;
+	height: 500px;
+	float: left;
+	text-align: center;
+}
+#hotnew{
+	width: 300px;
+	height: 150px;
+	margin: 0 5px 0 10px;
+	float: left;
+	border: 1px solid;
+	line-height: 150px;
+}
+#photo{
+	width: 300px;
+	height:150px ;
+	margin: 0 5px 0 10px;
+	float: left;
+	border: 1px solid;
+	line-height: 150px;
+}
+#center article{
+	width: 195px;
+	margin: 5px 5px 0px 10px;
+	height: 165px;
+	border: 1px solid;
+	float: left;
+	line-height: 165px;
+}
+#right{
+	float: left;
+	width: 150px;
+	margin: 0px 10px;
+}
+.right{
+	width: 150px;
+	height: 150px;
+	margin-top: 10px ;
+	border: 1px solid;
+	line-height: 150px;
+	text-align: center;
+}
+#footer{
+	width: 960px;
+	height: 30px;
+	margin-top: 10px;
+	float: left;
+	border: 1px solid;
+}
+#footer p{
+	color: black;
+	display: inline;
+	line-height: 30px;
+	padding-left: 15px;
+	float: left;
+}
+#footer ul li{
+	padding-left: 10px;
+	list-style-type: none;
+	float: right;
+	line-height: 30px;
+	padding: 0px 10px;
+	border-right: 1px solid;
+}
+#footer li a{
+	display: inline;
+}
+#footer li:hover a{
+	color: yellowgreen;
+}
+#footer li:first-child{
+	border-right: none;	
+}
