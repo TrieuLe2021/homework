@@ -1,0 +1,16 @@
+#main{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	grid-template-rows: 100px 100px 100px 100px;
+	grid-gap: 10px;
+	background: skyblue;
+	padding: 20px;
+}
+.col{
+	border: 1px solid black;
+	text-align: center;
+}
+#c5{
+	grid-row: span 4;
+	grid-column: span 4;
+}
