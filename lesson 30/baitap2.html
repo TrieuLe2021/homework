@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+		#main3{
+			background: skyblue;
+			/*width: 500px;*/
+			padding: 10px;
+			display: flex;
+			flex-direction: column;
+		}
+		#main3 > div{
+			/*width: 100px;*/
+			/*height: 200px;*/
+			margin: 10px 10px;
+			background: blueviolet;
+			/*float: left;*/
+			text-align: center;
+			line-height: 100px;
+			color: white;
+			font-size: 30px;
+
+		}
+		#main4{
+			background: skyblue;
+			/*width: 500px;*/
+			padding: 10px;
+			display: flex;
+			flex-direction: column-reverse;
+		}
+		#main4 > div{
+			/*width: 100px;*/
+			/*height: 200px;*/
+			margin: 10px 10px;
+			background: blueviolet;
+			/*float: left;*/
+			text-align: center;
+			line-height: 100px;
+			color: white;
+			font-size: 30px;
+
+		}
+		@media (max-width: 375px){
+			#main3,#main4{
+				flex-direction: row;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="main3">
+		<div class="item1">1</div>
+		<div class="item1">2</div>
+		<div class="item1">3</div>
+	</div>
+	<div id="main4">
+		<div class="item1">1</div>
+		<div class="item1">2</div>
+		<div class="item1">3</div>
+	</div>
+</body>
+</html>
